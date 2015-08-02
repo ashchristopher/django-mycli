@@ -1,0 +1,3 @@
+wheel==0.23.0
+mycli
+Django>=1.4
