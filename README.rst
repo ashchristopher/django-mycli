@@ -28,6 +28,7 @@ Add ``django_mycli`` to your ``INSTALLED_APPS`` setting.
         'django_mycli',
     ]
 
+
 Usage
 -----
 Call the `dbshell` command.
