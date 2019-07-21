@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='django-mycli',
-    version='0.0.1',
+    version='1.0.0',
     description="Database runtime for Django that replaces mysql with mycli.",
     long_description=readme + '\n\n' + history,
     author="Ash Christopher",
@@ -41,16 +41,17 @@ setup(
     zip_safe=False,
     keywords='django mycli mysql database',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     test_suite='tests',
     tests_require=test_requirements
