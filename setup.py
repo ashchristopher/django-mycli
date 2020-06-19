@@ -16,12 +16,12 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'mycli',
-    'Django>=1.4',
+    'Django>=2.2',
 ]
 
 test_requirements = [
     'mycli',
-    'Django>=1.4',
+    'Django>=2.2',
 ]
 
 setup(
