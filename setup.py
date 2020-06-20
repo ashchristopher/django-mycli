@@ -29,6 +29,7 @@ setup(
     version='1.0.0',
     description="Database runtime for Django that replaces mysql with mycli.",
     long_description=readme + '\n\n' + history,
+    long_description_content_type="text/markdown",
     author="Ash Christopher",
     author_email='ash.christopher@gmail.com',
     url='https://github.com/ashchristopher/django-mycli',
