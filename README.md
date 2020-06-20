@@ -1,36 +1,25 @@
-===============================
-django-mycli
-===============================
 
-.. image:: https://img.shields.io/travis/ashchristopher/django-mycli.svg
-        :target: https://travis-ci.org/ashchristopher/django-mycli
+# django-mycli
 
-.. image:: https://img.shields.io/pypi/v/django-mycli.svg
-        :target: https://pypi.python.org/pypi/django-mycli
+[![Build Status](https://travis-ci.org/ashchristopher/django-mycli.svg?branch=master)](https://travis-ci.org/ashchristopher/django-mycli) [![PyPI version](https://badge.fury.io/py/django-mycli.svg)](https://badge.fury.io/py/django-mycli) ![PyPI - License](https://img.shields.io/pypi/l/django-mycli)
 
+Replaces your existing *mysql* cli for MySQL, MariaDB, and Percona with *mycli* which provides enhancements such as auto-completion and syntax highlighting. Visit the [MyCLI website](https://www.mycli.net/) to learn more about the MyCLI client.
 
-Alternate database runtime for Django that replaces mysql with mycli when
-calling the Django `dbshell` management command.
+## Installation
 
-* Free software: BSD license
+To install the package:
 
-Installation
-------------
+`$ pip install django-mycli`
 
-Installation is as simple as::
-
-    $ pip install django-mycli
-
-Add ``django_mycli`` to your ``INSTALLED_APPS`` setting.
+Add `django_mycli` to your `INSTALLED_APPS` setting in your settings.py file.
 
     INSTALLED_APPS = [
         ...,
         'django_mycli',
     ]
 
+## Usage
 
-Usage
------
-Call the `dbshell` command.
+To use the `mycli` command with your project, call the `dbshell` command.
 
     ./manage.py dbshell
