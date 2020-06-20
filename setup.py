@@ -16,11 +16,13 @@ with open('HISTORY.md') as history_file:
 
 requirements = [
     'mycli',
+    'mysqlclient',
     'Django>=2.2',
 ]
 
 test_requirements = [
     'mycli',
+    'mysqlclient',
     'Django>=2.2',
 ]
 
